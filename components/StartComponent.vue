@@ -1,7 +1,7 @@
 <template>
    <VCard variant="outlined">
      <VCardTitle>
-       Wilkommen bei deinem Zyklus
+       Wilkommen bei deinem Zyklus 🩸
      </VCardTitle>
 
      <VCardSubtitle>
