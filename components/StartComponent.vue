@@ -1,16 +1,19 @@
 <template>
    <VCard variant="outlined">
-     <template v-slot:title>
+     <VCardTitle>
        Wilkommen bei deinem Zyklus
-     </template>
+     </VCardTitle>
 
-     <template v-slot:subtitle>
-       This is a subtitle
-     </template>
+     <VCardSubtitle>
+       Dies ist eine App um deinen Zyklus zu tracken
+     </VCardSubtitle>
 
-     <template v-slot:text>
-       This is content
-     </template>
+     <VCardText>
+       Hier kannst du deinen Zyklus tracken
+       <NuxtLink to="/tracking">
+         Zum Tracking
+       </NuxtLink>
+     </VCardText>
    </VCard>
 
 </template>
